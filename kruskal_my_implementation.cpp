@@ -15,6 +15,9 @@ struct edge{
 int par[10001];
 edge arr[10001];
 
+// time complexity : O(Mlog M) +O(M*4*k)
+// first big O is due to sorting and second is due to union operation for each index i
+// so overall time complexity : O(MLog M)
 
 bool cmp(edge a ,edge b){
 
