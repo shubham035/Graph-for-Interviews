@@ -1,5 +1,6 @@
 #include<bits/stdc++.h>
 using namespace std;
+// back edges can never be bridges 
 
 vector<int> g[100001];
 int vis[100001];
