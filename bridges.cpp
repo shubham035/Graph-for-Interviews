@@ -25,7 +25,9 @@ void dfs(int node, int par){
             // forawrd edge
             dfs(child,node);
         // it means that child is not connected to any ancesstor of node 
-            // ie. if the if condition is false :: even if we remove this node then it is connected with a ancesstor of the currnode: and hence removing this node will not affected  no of connected component so no bridfe if condition fails
+            // ie. if the if condition is false :: even if we remove this node then it is connected 
+            // with a ancesstor of the currnode: and hence removing this node will not affected  no
+            // of connected component so no bridfe if condition fails
             if(low[child]>in_time[node]){
                 // here we can have cnt as counter to count no of brides:
 
