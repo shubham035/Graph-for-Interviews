@@ -83,7 +83,7 @@ int main() {
 
         int x=count();
         if(x==0){
-            cout<<"Euler Graph \n";
+            cout<<"Euler  Circuit \n";
         }
         else if (x==2){
             cout<<"SEMI Eulerian graph \n";
